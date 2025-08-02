@@ -5,18 +5,9 @@
 
 ---
 **_Content:_**
-- [Distributed Data Collection System](#distributed-data-collection-system)
-- [Features](#features)
-  - [System Architecture](#system-architecture)
-- [API](#api)
 - [Compiling](#compiling)
-- [Daemon Management](#daemon-management)
-  - [Start server:](#start-server)
-- [For develoders](#for-develoders)
-- [Ho to push](#ho-to-push)
 - [Libraries and extensions](#libraries-and-extensions)
-- [Create user for System](#create-user-for-system)
-- [Add users to DB](#add-users-to-db)
+
 ---
 
 ## Compiling in the directory ./build
