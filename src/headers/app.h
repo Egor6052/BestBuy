@@ -9,7 +9,7 @@ class App {
 private:
 
 public:
-    void ParseJsonResponse(std::string readBuffer);
+    void ParseJsonResponse(const std::string& readBuffer);
 
 };
 

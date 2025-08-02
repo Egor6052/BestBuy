@@ -1,26 +1,19 @@
 #include <iostream>
-#include <curl/curl.h>
-#include <string>
-#include <app.h>
-
 #include <nlohmann/json.hpp>
+#include "app.h"
+#include "product.h"
 
 using json = nlohmann::json;
 
-void App::ParseJsonResponse(std::string readBuffer) {
-
+void App::ParseJsonResponse(const std::string& readBuffer) {
     try {
-        // Parse JSON response
         auto json_response = json::parse(readBuffer);
-
-        // Check if "items" exists
         if (json_response.contains("items") && json_response["items"].is_array()) {
             for (const auto& item : json_response["items"]) {
-                // Extract name
-                std::string name = item.value("name", "Немає назви");
-                std::cout << "Назва: " << name << std::endl;
+                Product product;
+                product.setNameProduct(item.value("name", "Немає назви"));
+                std::cout << "Назва: " << product.getNameProduct() << std::endl;
 
-                // Extract description from parameters
                 std::string description = "Опис відсутній";
                 if (item.contains("parameters") && item["parameters"].is_array()) {
                     for (const auto& param : item["parameters"]) {
@@ -30,23 +23,23 @@ void App::ParseJsonResponse(std::string readBuffer) {
                         }
                     }
                 }
-                std::cout << "Опис: " << description << std::endl;
+                product.setDescriptionProduct(description);
+                std::cout << "Опис: " << product.getDescriptionProduct() << std::endl;
 
-                // Extract price
-                std::string price = "Ціна відсутня";
+                float price = 0.0f;
                 if (item.contains("prices") && item["prices"].is_array()) {
                     for (const auto& p : item["prices"]) {
                         if (p.value("Type", "") == "price") {
-                            price = std::to_string(p.value("Value", 0.0));
+                            price = p.value("Value", 0.0f);
                             break;
                         }
                     }
                 }
-                std::cout << "Ціна: " << price << " грн" << std::endl;
+                product.setPriceProduct(price);
+                std::cout << "Ціна: " << product.getPriceProduct() << " грн" << std::endl;
 
-                // Extract main image
-                std::string mainImage = item.value("mainImage", "Зображення відсутнє");
-                std::cout << "Зображення: " << mainImage << std::endl;
+                product.setImageProduct(item.value("mainImage", "Зображення відсутнє"));
+                std::cout << "Зображення: " << product.getImageProduct() << std::endl;
 
                 std::cout << "----------------------------------------" << std::endl;
             }
