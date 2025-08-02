@@ -153,6 +153,30 @@ src/Product/Product.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Product/Product.cpp.s
 .PHONY : src/Product/Product.cpp.s
 
+src/Response/JSON_Request_Silpo.o: src/Response/JSON_Request_Silpo.cpp.o
+.PHONY : src/Response/JSON_Request_Silpo.o
+
+# target to build an object file
+src/Response/JSON_Request_Silpo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o
+.PHONY : src/Response/JSON_Request_Silpo.cpp.o
+
+src/Response/JSON_Request_Silpo.i: src/Response/JSON_Request_Silpo.cpp.i
+.PHONY : src/Response/JSON_Request_Silpo.i
+
+# target to preprocess a source file
+src/Response/JSON_Request_Silpo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.i
+.PHONY : src/Response/JSON_Request_Silpo.cpp.i
+
+src/Response/JSON_Request_Silpo.s: src/Response/JSON_Request_Silpo.cpp.s
+.PHONY : src/Response/JSON_Request_Silpo.s
+
+# target to generate assembly for a file
+src/Response/JSON_Request_Silpo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.s
+.PHONY : src/Response/JSON_Request_Silpo.cpp.s
+
 src/Response/ParseJsonresponse.o: src/Response/ParseJsonresponse.cpp.o
 .PHONY : src/Response/ParseJsonresponse.o
 
@@ -176,6 +200,30 @@ src/Response/ParseJsonresponse.s: src/Response/ParseJsonresponse.cpp.s
 src/Response/ParseJsonresponse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s
 .PHONY : src/Response/ParseJsonresponse.cpp.s
+
+src/Store/Store.o: src/Store/Store.cpp.o
+.PHONY : src/Store/Store.o
+
+# target to build an object file
+src/Store/Store.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Store/Store.cpp.o
+.PHONY : src/Store/Store.cpp.o
+
+src/Store/Store.i: src/Store/Store.cpp.i
+.PHONY : src/Store/Store.i
+
+# target to preprocess a source file
+src/Store/Store.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Store/Store.cpp.i
+.PHONY : src/Store/Store.cpp.i
+
+src/Store/Store.s: src/Store/Store.cpp.s
+.PHONY : src/Store/Store.s
+
+# target to generate assembly for a file
+src/Store/Store.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Store/Store.cpp.s
+.PHONY : src/Store/Store.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -213,9 +261,15 @@ help:
 	@echo "... src/Product/Product.o"
 	@echo "... src/Product/Product.i"
 	@echo "... src/Product/Product.s"
+	@echo "... src/Response/JSON_Request_Silpo.o"
+	@echo "... src/Response/JSON_Request_Silpo.i"
+	@echo "... src/Response/JSON_Request_Silpo.s"
 	@echo "... src/Response/ParseJsonresponse.o"
 	@echo "... src/Response/ParseJsonresponse.i"
 	@echo "... src/Response/ParseJsonresponse.s"
+	@echo "... src/Store/Store.o"
+	@echo "... src/Store/Store.i"
+	@echo "... src/Store/Store.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

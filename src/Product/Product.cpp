@@ -16,7 +16,6 @@ void Product::setNameProduct(const std::string& valueName) {
     if (valueName.empty()) {
         std::cerr << "Error: Name must not be empty.\n";
     }
-    // При потребі: обмеження довжини
     if (valueName.size() > 256) {
         std::cerr << "Error: Name is too long (max 256 characters).\n";
     }

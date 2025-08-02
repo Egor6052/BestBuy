@@ -33,9 +33,14 @@ set(SOURCE_FILES
 
     # Response
     src/Response/ParseJsonresponse.cpp
+    src/Response/JSON_Request_Silpo.cpp
 
     # Product
     src/Product/Product.cpp
+
+
+    # Store
+    src/Store/Store.cpp
 
 )
 

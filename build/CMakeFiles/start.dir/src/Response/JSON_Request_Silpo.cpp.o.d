@@ -1,5 +1,5 @@
-CMakeFiles/start.dir/src/main.cpp.o: \
- /home/admin1/Стільниця/BestBuy/src/main.cpp \
+CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o: \
+ /home/admin1/Стільниця/BestBuy/src/Response/JSON_Request_Silpo.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \

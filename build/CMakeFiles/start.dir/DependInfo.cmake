@@ -9,7 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/admin1/Стільниця/BestBuy/src/Product/Product.cpp" "CMakeFiles/start.dir/src/Product/Product.cpp.o" "gcc" "CMakeFiles/start.dir/src/Product/Product.cpp.o.d"
+  "/home/admin1/Стільниця/BestBuy/src/Response/JSON_Request_Silpo.cpp" "CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o" "gcc" "CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o.d"
   "/home/admin1/Стільниця/BestBuy/src/Response/ParseJsonresponse.cpp" "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o" "gcc" "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o.d"
+  "/home/admin1/Стільниця/BestBuy/src/Store/Store.cpp" "CMakeFiles/start.dir/src/Store/Store.cpp.o" "gcc" "CMakeFiles/start.dir/src/Store/Store.cpp.o.d"
   "/home/admin1/Стільниця/BestBuy/src/main.cpp" "CMakeFiles/start.dir/src/main.cpp.o" "gcc" "CMakeFiles/start.dir/src/main.cpp.o.d"
   )
 

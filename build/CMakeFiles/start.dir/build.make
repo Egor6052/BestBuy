@@ -97,10 +97,24 @@ CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/BestBuy/src/Response/ParseJsonresponse.cpp -o CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s
 
+CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o: /home/admin1/Стільниця/BestBuy/src/Response/JSON_Request_Silpo.cpp
+CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o -MF CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o.d -o CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o -c /home/admin1/Стільниця/BestBuy/src/Response/JSON_Request_Silpo.cpp
+
+CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/BestBuy/src/Response/JSON_Request_Silpo.cpp > CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.i
+
+CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/BestBuy/src/Response/JSON_Request_Silpo.cpp -o CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.s
+
 CMakeFiles/start.dir/src/Product/Product.cpp.o: CMakeFiles/start.dir/flags.make
 CMakeFiles/start.dir/src/Product/Product.cpp.o: /home/admin1/Стільниця/BestBuy/src/Product/Product.cpp
 CMakeFiles/start.dir/src/Product/Product.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/start.dir/src/Product/Product.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/start.dir/src/Product/Product.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Product/Product.cpp.o -MF CMakeFiles/start.dir/src/Product/Product.cpp.o.d -o CMakeFiles/start.dir/src/Product/Product.cpp.o -c /home/admin1/Стільниця/BestBuy/src/Product/Product.cpp
 
 CMakeFiles/start.dir/src/Product/Product.cpp.i: cmake_force
@@ -111,22 +125,40 @@ CMakeFiles/start.dir/src/Product/Product.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Product/Product.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/BestBuy/src/Product/Product.cpp -o CMakeFiles/start.dir/src/Product/Product.cpp.s
 
+CMakeFiles/start.dir/src/Store/Store.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Store/Store.cpp.o: /home/admin1/Стільниця/BestBuy/src/Store/Store.cpp
+CMakeFiles/start.dir/src/Store/Store.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/start.dir/src/Store/Store.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Store/Store.cpp.o -MF CMakeFiles/start.dir/src/Store/Store.cpp.o.d -o CMakeFiles/start.dir/src/Store/Store.cpp.o -c /home/admin1/Стільниця/BestBuy/src/Store/Store.cpp
+
+CMakeFiles/start.dir/src/Store/Store.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Store/Store.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/BestBuy/src/Store/Store.cpp > CMakeFiles/start.dir/src/Store/Store.cpp.i
+
+CMakeFiles/start.dir/src/Store/Store.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Store/Store.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/BestBuy/src/Store/Store.cpp -o CMakeFiles/start.dir/src/Store/Store.cpp.s
+
 # Object files for target start
 start_OBJECTS = \
 "CMakeFiles/start.dir/src/main.cpp.o" \
 "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o" \
-"CMakeFiles/start.dir/src/Product/Product.cpp.o"
+"CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o" \
+"CMakeFiles/start.dir/src/Product/Product.cpp.o" \
+"CMakeFiles/start.dir/src/Store/Store.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
 start: CMakeFiles/start.dir/src/main.cpp.o
 start: CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o
+start: CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o
 start: CMakeFiles/start.dir/src/Product/Product.cpp.o
+start: CMakeFiles/start.dir/src/Store/Store.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: /usr/lib/x86_64-linux-gnu/libcurl.so
 start: CMakeFiles/start.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable start"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/start.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
