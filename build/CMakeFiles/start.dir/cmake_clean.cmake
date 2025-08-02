@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/start.dir/src/Product/Product.cpp.o"
+  "CMakeFiles/start.dir/src/Product/Product.cpp.o.d"
+  "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o"
+  "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o.d"
   "CMakeFiles/start.dir/src/main.cpp.o"
   "CMakeFiles/start.dir/src/main.cpp.o.d"
   "start"

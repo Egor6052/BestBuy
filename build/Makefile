@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin1/Стільниця/API_Store
+CMAKE_SOURCE_DIR = /home/admin1/Стільниця/BestBuy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin1/Стільниця/API_Store/build
+CMAKE_BINARY_DIR = /home/admin1/Стільниця/BestBuy/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Стільниця/API_Store/build/CMakeFiles /home/admin1/Стільниця/API_Store/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Стільниця/BestBuy/build/CMakeFiles /home/admin1/Стільниця/BestBuy/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Стільниця/API_Store/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/admin1/Стільниця/BestBuy/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,6 +129,54 @@ start/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/build
 .PHONY : start/fast
 
+src/Product/Product.o: src/Product/Product.cpp.o
+.PHONY : src/Product/Product.o
+
+# target to build an object file
+src/Product/Product.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Product/Product.cpp.o
+.PHONY : src/Product/Product.cpp.o
+
+src/Product/Product.i: src/Product/Product.cpp.i
+.PHONY : src/Product/Product.i
+
+# target to preprocess a source file
+src/Product/Product.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Product/Product.cpp.i
+.PHONY : src/Product/Product.cpp.i
+
+src/Product/Product.s: src/Product/Product.cpp.s
+.PHONY : src/Product/Product.s
+
+# target to generate assembly for a file
+src/Product/Product.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Product/Product.cpp.s
+.PHONY : src/Product/Product.cpp.s
+
+src/Response/ParseJsonresponse.o: src/Response/ParseJsonresponse.cpp.o
+.PHONY : src/Response/ParseJsonresponse.o
+
+# target to build an object file
+src/Response/ParseJsonresponse.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o
+.PHONY : src/Response/ParseJsonresponse.cpp.o
+
+src/Response/ParseJsonresponse.i: src/Response/ParseJsonresponse.cpp.i
+.PHONY : src/Response/ParseJsonresponse.i
+
+# target to preprocess a source file
+src/Response/ParseJsonresponse.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.i
+.PHONY : src/Response/ParseJsonresponse.cpp.i
+
+src/Response/ParseJsonresponse.s: src/Response/ParseJsonresponse.cpp.s
+.PHONY : src/Response/ParseJsonresponse.s
+
+# target to generate assembly for a file
+src/Response/ParseJsonresponse.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s
+.PHONY : src/Response/ParseJsonresponse.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... start"
+	@echo "... src/Product/Product.o"
+	@echo "... src/Product/Product.i"
+	@echo "... src/Product/Product.s"
+	@echo "... src/Response/ParseJsonresponse.o"
+	@echo "... src/Response/ParseJsonresponse.i"
+	@echo "... src/Response/ParseJsonresponse.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

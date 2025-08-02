@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/admin1/Стільниця/API_Store/include -I/home/admin1/Стільниця/API_Store/src/headers -I/home/admin1/Стільниця/API_Store/build
+CXX_INCLUDES = -I/home/admin1/Стільниця/BestBuy/include -I/home/admin1/Стільниця/BestBuy/src/headers -I/home/admin1/Стільниця/BestBuy/build
 
 CXX_FLAGS = -Wall -fPIC -std=gnu++11
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin1/Стільниця/API_Store
+CMAKE_SOURCE_DIR = /home/admin1/Стільниця/BestBuy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin1/Стільниця/API_Store/build
+CMAKE_BINARY_DIR = /home/admin1/Стільниця/BestBuy/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/start.dir/depend.make
@@ -70,31 +70,63 @@ include CMakeFiles/start.dir/progress.make
 include CMakeFiles/start.dir/flags.make
 
 CMakeFiles/start.dir/src/main.cpp.o: CMakeFiles/start.dir/flags.make
-CMakeFiles/start.dir/src/main.cpp.o: /home/admin1/Стільниця/API_Store/src/main.cpp
+CMakeFiles/start.dir/src/main.cpp.o: /home/admin1/Стільниця/BestBuy/src/main.cpp
 CMakeFiles/start.dir/src/main.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/API_Store/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/main.cpp.o -MF CMakeFiles/start.dir/src/main.cpp.o.d -o CMakeFiles/start.dir/src/main.cpp.o -c /home/admin1/Стільниця/API_Store/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/main.cpp.o -MF CMakeFiles/start.dir/src/main.cpp.o.d -o CMakeFiles/start.dir/src/main.cpp.o -c /home/admin1/Стільниця/BestBuy/src/main.cpp
 
 CMakeFiles/start.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/API_Store/src/main.cpp > CMakeFiles/start.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/BestBuy/src/main.cpp > CMakeFiles/start.dir/src/main.cpp.i
 
 CMakeFiles/start.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/API_Store/src/main.cpp -o CMakeFiles/start.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/BestBuy/src/main.cpp -o CMakeFiles/start.dir/src/main.cpp.s
+
+CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o: /home/admin1/Стільниця/BestBuy/src/Response/ParseJsonresponse.cpp
+CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o -MF CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o.d -o CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o -c /home/admin1/Стільниця/BestBuy/src/Response/ParseJsonresponse.cpp
+
+CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/BestBuy/src/Response/ParseJsonresponse.cpp > CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.i
+
+CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/BestBuy/src/Response/ParseJsonresponse.cpp -o CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s
+
+CMakeFiles/start.dir/src/Product/Product.cpp.o: CMakeFiles/start.dir/flags.make
+CMakeFiles/start.dir/src/Product/Product.cpp.o: /home/admin1/Стільниця/BestBuy/src/Product/Product.cpp
+CMakeFiles/start.dir/src/Product/Product.cpp.o: CMakeFiles/start.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/start.dir/src/Product/Product.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start.dir/src/Product/Product.cpp.o -MF CMakeFiles/start.dir/src/Product/Product.cpp.o.d -o CMakeFiles/start.dir/src/Product/Product.cpp.o -c /home/admin1/Стільниця/BestBuy/src/Product/Product.cpp
+
+CMakeFiles/start.dir/src/Product/Product.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/start.dir/src/Product/Product.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Стільниця/BestBuy/src/Product/Product.cpp > CMakeFiles/start.dir/src/Product/Product.cpp.i
+
+CMakeFiles/start.dir/src/Product/Product.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/start.dir/src/Product/Product.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Стільниця/BestBuy/src/Product/Product.cpp -o CMakeFiles/start.dir/src/Product/Product.cpp.s
 
 # Object files for target start
 start_OBJECTS = \
-"CMakeFiles/start.dir/src/main.cpp.o"
+"CMakeFiles/start.dir/src/main.cpp.o" \
+"CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o" \
+"CMakeFiles/start.dir/src/Product/Product.cpp.o"
 
 # External object files for target start
 start_EXTERNAL_OBJECTS =
 
 start: CMakeFiles/start.dir/src/main.cpp.o
+start: CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o
+start: CMakeFiles/start.dir/src/Product/Product.cpp.o
 start: CMakeFiles/start.dir/build.make
 start: /usr/lib/x86_64-linux-gnu/libcurl.so
 start: CMakeFiles/start.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Стільниця/API_Store/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable start"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Стільниця/BestBuy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable start"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/start.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,6 +138,6 @@ CMakeFiles/start.dir/clean:
 .PHONY : CMakeFiles/start.dir/clean
 
 CMakeFiles/start.dir/depend:
-	cd /home/admin1/Стільниця/API_Store/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin1/Стільниця/API_Store /home/admin1/Стільниця/API_Store /home/admin1/Стільниця/API_Store/build /home/admin1/Стільниця/API_Store/build /home/admin1/Стільниця/API_Store/build/CMakeFiles/start.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/admin1/Стільниця/BestBuy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin1/Стільниця/BestBuy /home/admin1/Стільниця/BestBuy /home/admin1/Стільниця/BestBuy/build /home/admin1/Стільниця/BestBuy/build /home/admin1/Стільниця/BestBuy/build/CMakeFiles/start.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/start.dir/depend
 

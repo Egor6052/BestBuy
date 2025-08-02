@@ -31,12 +31,12 @@ endif()
 set(SOURCE_FILES
     src/main.cpp
 
-    # Connection
-    # src/Connection/Connection.cpp
+    # Response
+    src/Response/ParseJsonresponse.cpp
 
     # Product
-    # src/Product/Product.cpp
-    
+    src/Product/Product.cpp
+
 )
 
 # Додавання виконуваного файлу
