@@ -1,0 +1,1 @@
+/usr/bin/c++  -static-libgcc -static-libstdc++ CMakeFiles/start.dir/src/main.cpp.o -o start  /usr/lib/x86_64-linux-gnu/libcurl.so 
