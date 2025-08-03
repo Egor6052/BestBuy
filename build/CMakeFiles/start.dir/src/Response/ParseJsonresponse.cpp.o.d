@@ -260,4 +260,6 @@ CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o: \
  /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/macro_unscope.hpp \
  /home/admin1/Стільниця/BestBuy/include/nlohmann/thirdparty/hedley/hedley_undef.hpp \
  /home/admin1/Стільниця/BestBuy/src/headers/app.h \
+ /home/admin1/Стільниця/BestBuy/src/headers/store.h \
+ /home/admin1/Стільниця/BestBuy/src/headers/product.h \
  /home/admin1/Стільниця/BestBuy/src/headers/product.h

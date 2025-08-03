@@ -2,6 +2,7 @@
 #include <string>
 #include <store.h>
 
+
 Store::Store() {
     this->NameStore = "";
     this->API = "";
@@ -33,4 +34,17 @@ void Store::setAPI(std::string valueAPI) {
 
 std::string Store::getAPI() {
     return API;
+}
+
+
+void Store::addProduct(const Product& product) {
+    products_.push_back(product);
+}
+
+const std::vector<Product>& Store::getProducts() const {
+    return products_;
+}
+
+void Store::clearProducts() {
+    products_.clear();
 }

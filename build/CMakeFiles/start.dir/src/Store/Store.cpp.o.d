@@ -146,4 +146,9 @@ CMakeFiles/start.dir/src/Store/Store.cpp.o: \
  /usr/include/c++/12/bits/basic_ios.tcc \
  /usr/include/c++/12/bits/ostream.tcc /usr/include/c++/12/istream \
  /usr/include/c++/12/bits/istream.tcc \
- /home/admin1/Стільниця/BestBuy/src/headers/store.h
+ /home/admin1/Стільниця/BestBuy/src/headers/store.h \
+ /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc \
+ /home/admin1/Стільниця/BestBuy/src/headers/product.h

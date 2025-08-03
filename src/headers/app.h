@@ -2,6 +2,8 @@
 #define APP_H
 
 #include <string>
+#include <store.h>
+
 
 class App {
 public:
@@ -12,11 +14,13 @@ public:
         return total_size;
     }
 
-    void ParseJsonResponse(const std::string& readBuffer);
+    void setStore();
 
-    void JSON_Request_Silpo();
+    void ParseJsonResponse(const std::string& readBuffer, Store& targetStore);
 
-    void Store();
+    void JSON_Request_Silpo(Store& targetStore);
+
+    // void Store();
 };
 
 #endif // APP_H

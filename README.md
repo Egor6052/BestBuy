@@ -7,7 +7,6 @@
 **_Content:_**
 - [Compiling](#compiling)
 - [Libraries and extensions](#libraries-and-extensions)
-
 ---
 
 ## Compiling in the directory ./build

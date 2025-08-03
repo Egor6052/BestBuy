@@ -1,5 +1,5 @@
-CMakeFiles/start.dir/src/main.cpp.o: \
- /home/admin1/Стільниця/BestBuy/src/main.cpp \
+CMakeFiles/start.dir/src/Response/App.cpp.o: \
+ /home/admin1/Стільниця/BestBuy/src/Response/App.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -187,5 +187,4 @@ CMakeFiles/start.dir/src/main.cpp.o: \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
- /home/admin1/Стільниця/BestBuy/src/headers/product.h \
  /home/admin1/Стільниця/BestBuy/src/headers/product.h

@@ -2,8 +2,9 @@
 #include <curl/curl.h>
 #include <string>
 #include <app.h>
+#include <store.h>
 
-void App::JSON_Request_Silpo() {
+void App::JSON_Request_Silpo(Store& targetStore) {
     CURL *curl;
     CURLcode res;
     std::string readBuffer;
@@ -58,7 +59,7 @@ void App::JSON_Request_Silpo() {
         if(res != CURLE_OK) {
             std::cerr << "curl_easy_perform() failed: " << curl_easy_strerror(res) << std::endl;
         } else {
-            ParseJsonResponse(readBuffer);
+            ParseJsonResponse(readBuffer, targetStore);
         }
 
         // Cleanup

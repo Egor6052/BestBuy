@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/start.dir/src/App/setStore.cpp.o"
+  "CMakeFiles/start.dir/src/App/setStore.cpp.o.d"
   "CMakeFiles/start.dir/src/Product/Product.cpp.o"
   "CMakeFiles/start.dir/src/Product/Product.cpp.o.d"
-  "CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o"
-  "CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o.d"
+  "CMakeFiles/start.dir/src/Response/App.cpp.o"
+  "CMakeFiles/start.dir/src/Response/App.cpp.o.d"
   "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o"
   "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o.d"
   "CMakeFiles/start.dir/src/Store/Store.cpp.o"
