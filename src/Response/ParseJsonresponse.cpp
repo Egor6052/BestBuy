@@ -1,18 +1,17 @@
 // app.cpp
 #include <iostream>
 #include <nlohmann/json.hpp>
-#include "app.h"
-#include "store.h" // <--- Додаємо, щоб App знав про Store
-#include "product.h" // Вже може бути підключено через store.h або app.h
+#include <app.h>
+#include <store.h>
+#include <product.h>
 
 using json = nlohmann::json;
 
-// Змінюємо сигнатуру ParseJsonResponse, щоб вона приймала об'єкт Store за посиланням
+// ParseJsonResponse приймає об'єкт Store за посиланням
 void App::ParseJsonResponse(const std::string& readBuffer, Store& targetStore) {
     try {
         auto json_response = json::parse(readBuffer);
         if (json_response.contains("items") && json_response["items"].is_array()) {
-            // Store targetStore;
             
             targetStore.clearProducts();
 
