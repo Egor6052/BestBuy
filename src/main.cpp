@@ -1,9 +1,9 @@
 // main.cpp
 #include <iostream>
-#include <curl/curl.h> // Потрібно для curl_global_cleanup()
-#include "app.h"
-#include "store.h"
-#include "product.h" // Може знадобитися, якщо ви виводите деталі Product
+#include <curl/curl.h>
+#include <app.h>
+#include <store.h>
+#include <product.h>
 
 int main() {
     App app;

@@ -14,7 +14,7 @@ public:
         return total_size;
     }
 
-    void setStore();
+    void setStore(App& app);
 
     void ParseJsonResponse(const std::string& readBuffer, Store& targetStore);
 
