@@ -58,3 +58,12 @@ void Product::setImageProduct(const std::string& valueImage) {
 const std::string& Product::getImageProduct() const {
     return mainImage;
 }
+
+
+void Product::setStoreName(const std::string& storeName) {
+    this->storeName = storeName;
+}
+
+const std::string& Product::getStoreName() const {
+    return storeName;
+}

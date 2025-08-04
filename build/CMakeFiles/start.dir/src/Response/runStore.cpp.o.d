@@ -1,5 +1,5 @@
-CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o: \
- /home/admin1/Стільниця/BestBuy/src/Response/JSON_Request_Silpo.cpp \
+CMakeFiles/start.dir/src/Response/runStore.cpp.o: \
+ /home/admin1/Стільниця/BestBuy/src/Response/runStore.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/12/iostream \
  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
@@ -181,4 +181,119 @@ CMakeFiles/start.dir/src/Response/JSON_Request_Silpo.cpp.o: \
  /usr/include/x86_64-linux-gnu/curl/options.h \
  /usr/include/x86_64-linux-gnu/curl/header.h \
  /usr/include/x86_64-linux-gnu/curl/websockets.h \
- /home/admin1/Стільниця/BestBuy/src/headers/app.h
+ /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h \
+ /home/admin1/Стільниця/BestBuy/src/headers/app.h \
+ /home/admin1/Стільниця/BestBuy/src/headers/store.h \
+ /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/bits/stl_vector.h \
+ /usr/include/c++/12/bits/stl_bvector.h \
+ /usr/include/c++/12/bits/vector.tcc \
+ /home/admin1/Стільниця/BestBuy/src/headers/product.h \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/json.hpp \
+ /usr/include/c++/12/cstddef /usr/include/c++/12/functional \
+ /usr/include/c++/12/tuple /usr/include/c++/12/bits/uses_allocator.h \
+ /usr/include/c++/12/bits/std_function.h /usr/include/c++/12/iterator \
+ /usr/include/c++/12/bits/stream_iterator.h /usr/include/c++/12/memory \
+ /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/12/bits/align.h /usr/include/c++/12/bit \
+ /usr/include/c++/12/bits/unique_ptr.h \
+ /usr/include/c++/12/bits/shared_ptr.h \
+ /usr/include/c++/12/bits/shared_ptr_base.h \
+ /usr/include/c++/12/bits/allocated_ptr.h \
+ /usr/include/c++/12/ext/aligned_buffer.h \
+ /usr/include/c++/12/ext/concurrence.h \
+ /usr/include/c++/12/bits/shared_ptr_atomic.h \
+ /usr/include/c++/12/bits/atomic_base.h \
+ /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+ /usr/include/c++/12/backward/auto_ptr.h /usr/include/c++/12/utility \
+ /usr/include/c++/12/bits/stl_relops.h \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/adl_serializer.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/abi_macros.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/conversions/from_json.hpp \
+ /usr/include/c++/12/array /usr/include/c++/12/compare \
+ /usr/include/c++/12/forward_list /usr/include/c++/12/bits/forward_list.h \
+ /usr/include/c++/12/bits/forward_list.tcc /usr/include/c++/12/map \
+ /usr/include/c++/12/bits/stl_tree.h /usr/include/c++/12/bits/stl_map.h \
+ /usr/include/c++/12/bits/stl_multimap.h \
+ /usr/include/c++/12/bits/erase_if.h /usr/include/c++/12/unordered_map \
+ /usr/include/c++/12/bits/hashtable.h \
+ /usr/include/c++/12/bits/hashtable_policy.h \
+ /usr/include/c++/12/bits/enable_special_members.h \
+ /usr/include/c++/12/bits/unordered_map.h /usr/include/c++/12/valarray \
+ /usr/include/c++/12/cmath /usr/include/math.h \
+ /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+ /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+ /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+ /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+ /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+ /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+ /usr/include/c++/12/bits/valarray_array.h \
+ /usr/include/c++/12/bits/valarray_array.tcc \
+ /usr/include/c++/12/bits/valarray_before.h \
+ /usr/include/c++/12/bits/slice_array.h \
+ /usr/include/c++/12/bits/valarray_after.h \
+ /usr/include/c++/12/bits/gslice.h \
+ /usr/include/c++/12/bits/gslice_array.h \
+ /usr/include/c++/12/bits/mask_array.h \
+ /usr/include/c++/12/bits/indirect_array.h \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/exceptions.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/value_t.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/macro_scope.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/detected.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/void_t.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/thirdparty/hedley/hedley.hpp \
+ /usr/include/c++/12/version /usr/include/c++/12/cassert \
+ /usr/include/assert.h \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/string_escape.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/input/position_t.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/cpp_future.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/type_traits.hpp \
+ /usr/include/c++/12/limits \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/iterators/iterator_traits.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/call_std/begin.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/call_std/end.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/json_fwd.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/string_concat.hpp \
+ /usr/include/c++/12/cstring /usr/include/string.h /usr/include/strings.h \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/identity_tag.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/std_fs.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/conversions/to_json.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/iterators/iteration_proxy.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/string_utils.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/byte_container_with_subtype.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/hash.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/input/binary_reader.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/input/input_adapters.hpp \
+ /usr/include/c++/12/numeric /usr/include/c++/12/bits/stl_numeric.h \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/input/json_sax.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/input/lexer.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/meta/is_sax.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/input/parser.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/iterators/internal_iterator.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/iterators/primitive_iterator.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/iterators/iter_impl.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/iterators/json_reverse_iterator.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/json_custom_base_class.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/json_pointer.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/json_ref.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/output/binary_writer.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/output/output_adapters.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/output/serializer.hpp \
+ /usr/include/c++/12/iomanip /usr/include/c++/12/locale \
+ /usr/include/c++/12/bits/locale_facets_nonio.h /usr/include/c++/12/ctime \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/12/bits/codecvt.h \
+ /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/12/bits/locale_conv.h \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/conversions/to_chars.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/ordered_map.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/detail/macro_unscope.hpp \
+ /home/admin1/Стільниця/BestBuy/include/nlohmann/thirdparty/hedley/hedley_undef.hpp

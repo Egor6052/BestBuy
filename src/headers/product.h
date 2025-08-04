@@ -11,11 +11,15 @@ private:
     std::string description;
     float price;
     std::string mainImage;
+    std::string storeName;
 
 public:
 
     Product();
     ~Product();
+
+    void setStoreName(const std::string& storeName); // Новий сеттер
+    const std::string& getStoreName() const;
 
     void setNameProduct(const std::string& valueName);
     const std::string& getNameProduct() const ;

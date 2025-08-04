@@ -67,3 +67,5 @@ void App::JSON_Request_Silpo(Store& targetStore) {
         curl_easy_cleanup(curl);
     }
 }
+
+

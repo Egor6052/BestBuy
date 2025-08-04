@@ -20,7 +20,9 @@ public:
 
     void JSON_Request_Silpo(Store& targetStore);
 
-    // void Store();
+    std::vector<Product> runSilpo();
+    std::vector<Product> runATB();
+
 };
 
 #endif // APP_H

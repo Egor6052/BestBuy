@@ -1,24 +1,18 @@
-// app.cpp
 #include <iostream>
 #include <nlohmann/json.hpp>
 #include <app.h>
-#include <store.h>
 #include <product.h>
 
 using json = nlohmann::json;
 
-// ParseJsonResponse приймає об'єкт Store за посиланням
-void App::ParseJsonResponse(const std::string& readBuffer, Store& targetStore) {
+void App::ParseJsonResponse(const std::string& readBuffer, Store& store) {
     try {
         auto json_response = json::parse(readBuffer);
         if (json_response.contains("items") && json_response["items"].is_array()) {
-            
-            targetStore.clearProducts();
-
             for (const auto& item : json_response["items"]) {
                 Product product;
-                
                 product.setNameProduct(item.value("name", "Немає назви"));
+
                 std::string description = "Опис відсутній";
                 if (item.contains("parameters") && item["parameters"].is_array()) {
                     for (const auto& param : item["parameters"]) {
@@ -40,15 +34,14 @@ void App::ParseJsonResponse(const std::string& readBuffer, Store& targetStore) {
                     }
                 }
                 product.setPriceProduct(price);
+
                 product.setImageProduct(item.value("mainImage", "Зображення відсутнє"));
 
-                targetStore.addProduct(product);
+                // Встановлюємо назву магазину
+                product.setStoreName(store.getStoreName());
 
-                // std::cout << "Назва: " << product.getNameProduct() << std::endl;
-                // std::cout << "Опис: " << product.getDescriptionProduct() << std::endl;
-                // std::cout << "Ціна: " << product.getPriceProduct() << " грн" << std::endl;
-                // std::cout << "Зображення: " << product.getImageProduct() << std::endl;
-                // std::cout << "----------------------------------------" << std::endl;
+                // Додаємо продукт до магазину
+                store.addProduct(product);
             }
         } else {
             std::cout << "Товари не знайдено в відповіді." << std::endl;

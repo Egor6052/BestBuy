@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/start.dir/src/Response/App.cpp.o.d"
   "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o"
   "CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.o.d"
+  "CMakeFiles/start.dir/src/Response/runStore.cpp.o"
+  "CMakeFiles/start.dir/src/Response/runStore.cpp.o.d"
   "CMakeFiles/start.dir/src/Store/Store.cpp.o"
   "CMakeFiles/start.dir/src/Store/Store.cpp.o.d"
   "CMakeFiles/start.dir/src/main.cpp.o"

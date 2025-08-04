@@ -42,6 +42,7 @@ set(SOURCE_FILES
     # Store
     src/Store/Store.cpp
     src/App/setStore.cpp
+    src/Response/runStore.cpp
 
 )
 

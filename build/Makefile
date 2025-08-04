@@ -225,6 +225,30 @@ src/Response/ParseJsonresponse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/ParseJsonresponse.cpp.s
 .PHONY : src/Response/ParseJsonresponse.cpp.s
 
+src/Response/runStore.o: src/Response/runStore.cpp.o
+.PHONY : src/Response/runStore.o
+
+# target to build an object file
+src/Response/runStore.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/runStore.cpp.o
+.PHONY : src/Response/runStore.cpp.o
+
+src/Response/runStore.i: src/Response/runStore.cpp.i
+.PHONY : src/Response/runStore.i
+
+# target to preprocess a source file
+src/Response/runStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/runStore.cpp.i
+.PHONY : src/Response/runStore.cpp.i
+
+src/Response/runStore.s: src/Response/runStore.cpp.s
+.PHONY : src/Response/runStore.s
+
+# target to generate assembly for a file
+src/Response/runStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/start.dir/build.make CMakeFiles/start.dir/src/Response/runStore.cpp.s
+.PHONY : src/Response/runStore.cpp.s
+
 src/Store/Store.o: src/Store/Store.cpp.o
 .PHONY : src/Store/Store.o
 
@@ -294,6 +318,9 @@ help:
 	@echo "... src/Response/ParseJsonresponse.o"
 	@echo "... src/Response/ParseJsonresponse.i"
 	@echo "... src/Response/ParseJsonresponse.s"
+	@echo "... src/Response/runStore.o"
+	@echo "... src/Response/runStore.i"
+	@echo "... src/Response/runStore.s"
 	@echo "... src/Store/Store.o"
 	@echo "... src/Store/Store.i"
 	@echo "... src/Store/Store.s"

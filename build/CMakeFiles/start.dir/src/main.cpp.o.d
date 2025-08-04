@@ -181,11 +181,16 @@ CMakeFiles/start.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/curl/options.h \
  /usr/include/x86_64-linux-gnu/curl/header.h \
  /usr/include/x86_64-linux-gnu/curl/websockets.h \
- /home/admin1/Стільниця/BestBuy/src/headers/app.h \
- /home/admin1/Стільниця/BestBuy/src/headers/store.h \
- /usr/include/c++/12/vector /usr/include/c++/12/bits/stl_uninitialized.h \
+ /usr/include/c++/12/algorithm /usr/include/c++/12/bits/stl_algo.h \
+ /usr/include/c++/12/bits/algorithmfwd.h \
+ /usr/include/c++/12/bits/stl_heap.h \
+ /usr/include/c++/12/bits/stl_tempbuf.h \
+ /usr/include/c++/12/bits/uniform_int_dist.h /usr/include/c++/12/vector \
+ /usr/include/c++/12/bits/stl_uninitialized.h \
  /usr/include/c++/12/bits/stl_vector.h \
  /usr/include/c++/12/bits/stl_bvector.h \
  /usr/include/c++/12/bits/vector.tcc \
+ /home/admin1/Стільниця/BestBuy/src/headers/app.h \
+ /home/admin1/Стільниця/BestBuy/src/headers/store.h \
  /home/admin1/Стільниця/BestBuy/src/headers/product.h \
  /home/admin1/Стільниця/BestBuy/src/headers/product.h
